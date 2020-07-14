@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSON Example</title>
+</head>
+<body>
+    
+    <script>
+        const superHeroes = [
+
+            {
+                "firstName":"Peter",
+                "lastName":"Parker",
+                "age":20,
+                "male":true,
+                "powers":[ "spider-sense", "clings to walls", "strength"],
+                "heroName":"Spiderman"
+            },
+
+            {
+                "firstName":"Bobby",
+                "lastName":"Drake",
+                "age":19,
+                "male":true,
+                "powers":["Manipulates ice and water", "Turns to ice"],
+                "heroName":"Iceman"
+            },
+
+            {
+                "firstName":"Tony",
+                "lastName":"Stark",
+                "age":20,
+                "male":true,
+                "powers":["Strength", "Can fly", "Armor suit"],
+                "heroName":"Iron Man"
+            },
+
+            {
+                "firstName":"Clark",
+                "lastName":"Kent",
+                "age":30,
+                "male":true,
+                "powers":["Super Strength", "Can fly", "X-ray vision"],
+                "heroName":"Superman"
+            }
+        ]
+
+            for(let i=0;i<superHeroes.length;i++){
+                console.log(superHeroes[i].age);
+            }
+    </script>
+</body>
+</html>
